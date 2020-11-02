@@ -1,7 +1,5 @@
 #include <iostream>
-
 using namespace std;
-
 int main()
 {
     int year;
@@ -14,10 +12,8 @@ int main()
         int c = year / 10 % 10;
         int d = year % 10;
         if (a != b && a != c && a != d && b != c && b != d && c != d)
-        {
-            break;
-        }
+            break;        
     }
-    cout << year << endl;
-    return 0;
+  cout << year << endl;
+  return 0;
 }
